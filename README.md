@@ -1,8 +1,19 @@
 # realtor.ca_supabase
+
 realtorca to supabase for analytics
 
-
 Supabase update or insert (w/JSON)
+
+.env
+
+```
+# Development settings
+SUPABASE_URL=
+SUPABASE_KEY=
+
+```
+
+SUPABASE FUNCTION
 
 I was having trouble to find documentation on how to save a JSON with RPC function of Supabase
 
@@ -22,4 +33,4 @@ INSERT into listing1(slug, address, data) VALUES (page_slug, address, data::JSON
 END IF;
 END;
 $$;
-```````
+```
