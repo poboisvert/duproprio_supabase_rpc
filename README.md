@@ -34,3 +34,9 @@ END IF;
 END;
 $$;
 ```
+
+![preview](1.png)
+
+And you can run the query in the interface to validate
+
+![preview](2.png)
