@@ -4,6 +4,8 @@ realtorca to supabase for analytics
 
 Supabase update or insert (w/JSON)
 
+I was having trouble to find documentation on how to save a JSON with RPC function of Supabase
+
 ```
 CREATE OR REPLACE FUNCTION update_listing(page_slug TEXT, address TEXT, data jsonb)
 RETURNS void
